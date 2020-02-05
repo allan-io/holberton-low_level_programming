@@ -1,1 +1,1 @@
-This directory will include low leve projects
+#!/bin/bash
