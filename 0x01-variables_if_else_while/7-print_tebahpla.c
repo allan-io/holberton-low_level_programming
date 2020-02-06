@@ -1,9 +1,21 @@
 #include <stdio.h>
 /**
- *
- *
+ * main - main function
+ * Description: print the alphabet in reverse using putchar
+ * Return: 0
  */
 int main(void)
 {
-	return ();
+	char *alphabet;
+	int i;
+
+	alphabet = "abcdefghijlmnopqrstuvwxyz";
+	i = 26;
+	while (i >= 0)
+	{
+		putchar(alphabet[i]);
+		i--;
+	}
+	putchar('\n');
+	return (0);
 }
