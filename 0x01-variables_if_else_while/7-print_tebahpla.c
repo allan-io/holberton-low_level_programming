@@ -9,7 +9,7 @@ int main(void)
 	char *alphabet;
 	int i;
 
-	alphabet = "abcdefghijlmnopqrstuvwxyz";
+	alphabet = "abcdefghijklmnopqrstuvwxyz";
 	i = 26;
 	while (i >= 0)
 	{
