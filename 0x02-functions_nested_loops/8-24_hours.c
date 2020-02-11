@@ -30,7 +30,7 @@ void jack_bauer(void)
 		if (j > 9)
 		{
 			j = 0;
-			j++;
+			i++;
 		}
 		total_mins++;
 	}
