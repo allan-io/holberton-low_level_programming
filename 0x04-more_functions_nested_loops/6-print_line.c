@@ -1,11 +1,16 @@
 #include "holberton.h"
 /**
- *
- *
- *
+ * print_line - prints "_" n number of times
+ * @n: number of times to print "_" int type
  */
-type name(args)
+void print_line(int n)
 {
-	
-	return (val);
+	for (int i = 0; i < n; i++)
+	{
+		if (i <= 0)
+			_putchar('\n\);
+		else
+			_putchar('_');
+	}
+	_putchar('\n');
 }
