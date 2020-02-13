@@ -1,11 +1,15 @@
 #include "holberton.h"
 /**
- *
- *
- *
+ * print_numbers - prints numbers from 0-9
  */
-type name(args)
+void print_numbers(void)
 {
-	
-	return (val);
+	int i = 0;
+
+	while (i < 10)
+	{
+		_putchar(i + '0');
+		i++;
+	}
+	_putchar('\n');
 }
