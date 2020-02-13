@@ -1,11 +1,21 @@
 #include "holberton.h"
 /**
- *
- *
- *
+ * print_square - prints a square out of #s in the terminal
+ * @size: size of each side of square
  */
-type name(args)
+void print_square(int size)
 {
-	
-	return (val);
+	int i = 0, j;
+
+	while (i < size)
+	{
+		j = 0;
+		while (j < size)
+		{
+			_putchar('#');
+			j++;
+		}
+		i++;
+		_putchar('\n');
+	}
 }
