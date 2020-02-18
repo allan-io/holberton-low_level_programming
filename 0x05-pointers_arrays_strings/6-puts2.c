@@ -1,4 +1,4 @@
-#include "holberton"
+#include "holberton.h"
 /**
  * puts2 - prints every other char of a string
  * @str: string that will be printed
