@@ -1,4 +1,4 @@
-#include "holberton.c"
+#include "holberton.h"
 /**
  * swap_int - function that swaps values of two ints
  * @a: pointer to int variable
